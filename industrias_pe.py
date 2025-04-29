@@ -9,7 +9,7 @@ import datetime as dt
 st.title("Indústrias de Pernambuco")
 
 # Caminho do arquivo CSV na mesma pasta
-csv_file = "Industrias_Pernambuco.csv"
+csv_file = "indupe.csv"
 
 # Lê o arquivo CSV em um DataFrame (sem verificar se o arquivo existe)
 df = pd.read_csv(csv_file, encoding='windows-1252', sep=';')
